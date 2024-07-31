@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const ErrorPage = () => {
-  return <div>this is error page</div>;
+  return <div className="min-h-screen">this is error page</div>;
 };
 
 export default ErrorPage;

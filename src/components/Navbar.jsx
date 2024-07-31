@@ -1,10 +1,13 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const linkClass = ({ isActive }) => (isActive ? 'text-gray-500' : '');
+  const linkClass = ({ isActive }) =>
+    isActive
+      ? "text-blackKnight border-b-blackKnight border-b-2 font-semibold "
+      : "text-blackKnight border-b-blackKnight font-semibold ";
   return (
     <nav className="grid grid-cols-12">
-      <div className="flex justify-start col-span-10">
+      <div className="flex justify-start col-span-10 ">
         <div className="flex  gap-5">
           <NavLink to="/" className={linkClass}>
             Home

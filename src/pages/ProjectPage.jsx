@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const ProjectPage = () => {
-  return <div>This is Project Page</div>;
+  return <div className="min-h-screen">This is Project Page</div>;
 };
 
 export default ProjectPage;
