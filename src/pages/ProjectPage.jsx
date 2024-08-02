@@ -1,5 +1,4 @@
-import CardProject from "@/components/CardProject";
-import thumbnailTest from "../assets/image/foto.webp";
+import CardProject from '@/components/CardProject';
 const ProjectPage = () => {
   return (
     <div className="mt-20 min-h-screen animate__animated animate__fadeInUp animate__faster">
@@ -11,8 +10,10 @@ const ProjectPage = () => {
           title="Test Project"
           shortDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
         posuere purus varius, finibus dui fringilla"
-          techStack="test tech"
-          thumbnail={thumbnailTest}
+          techStack="['aji', 'bayu']"
+          thumbnail="project/chatbot.webp"
+          Github="https://google.com"
+          Publication="https://google.com"
         />
       </div>
     </div>

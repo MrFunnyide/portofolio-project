@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className="flex justify-start md:items-center mt-6 gap-6 max-sm:flex-wrap">
         <img
           alt="aji-bayu-permadi"
-          className="w-full h-full md:w-2/6 rounded-md"
+          className="w-full h-full md:w-[28%] rounded-md"
           src={imageSelf}
         />
         <div>
