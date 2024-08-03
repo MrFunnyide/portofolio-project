@@ -1,70 +1,79 @@
-{
-  "projects": [
-    {
-      "id": "1",
-      "title": "E-Mufassir",
-      "shortDesc": "E-mufassir merupakan situs web yang dikembangkan oleh tim peneliti inkubator, yang bertujuan untuk menciptakan asisten Muslim yang dapat membantu masyarakat menemukan informasi tentang Al-Quran, Hadits, dan Fiqih.",
-      "techStack": ["Laravel", "Wordpress", "Bootstrap", "Vue.js", "Python"],
-      "image": "project/emufassir.webp",
-      "link": {
-        "github": "-",
-        "publication": "https://e-mufassir.com/"
-      }
-    },
-    {
-      "id": "2",
-      "title": "Chatbot E-Mufassir",
-      "shortDesc": "Chatbot ini merupakan hasil tesis kuliah saya, yang dirancang untuk membantu pengguna dalam menemukan informasi tentang isi interpretasi Al-Azhar.",
-      "techStack": ["Laravel", "Python"],
-      "image":"project/chatbot.webp",
-      "link": {
-        "github": "-",
-        "publication": "https://t.me/quran_emufassir_bot"
-      }
-    },
-    {
-      "id": "3",
-      "title": "Landing Page Desa Umbul Limus",
-      "shortDesc": "Landing Page ini merupakan salah satu proyek yang saya lakukan selama program pengabdian masyarakat Melayu bersama di Kabupaten Pesawaran, Lampung. Tujuan pembuatan Landing Page ini adalah untuk memperkenalkan keindahan dan adat istiadat Desa Umbul Limus.",
-      "techStack": ["Vue.js", "Bootstrap"],
-      "image": "project/landingUbl.webp",
-      "link": {
-        "github": "https://github.com/MrFunnyide/webDesaUBL",
-        "publication": "https://umbul-limus.netlify.app/"
-      }
-    },
-    {
-      "id": "4",
-      "title": "Landing Page FDK Uin Suska Riau",
-      "shortDesc": "Website ini merupakan website yang saya ajukan untuk mengikuti Lomba Pembuatan Website Fakultas Dakwah dan Komunikasi Islam.",
-      "techStack": ["Html", "Bootstrap", "JavaScript"],
-      "image": "project/landingFdk.webp",
-      "link": {
-        "github": "https://github.com/MrFunnyide/web-bootstrap",
-        "publication": "https://fdk-uin-suska.netlify.app/"
-      }
-    },
-    {
-      "id": "5",
-      "title": "SIM Student SMAN 5 Tapung",
-      "shortDesc": "Website ini dibuat untuk melakukan pencatatan atau pendataan siswa yang ada di SMAN 5 Tapung.",
-      "techStack": ["Laravel", "Bootstrap"],
-      "image": "project/SimStudent.webp",
-      "link": {
-        "github": "https://github.com/MrFunnyide/web-sma5",
-        "publication": "-"
-      }
-    },
-    {
-      "id": "6",
-      "title": "SIM Data Tanah",
-      "shortDesc": "Situs web ini adalah situs web yang saya buat untuk kursus Rekayasa Perangkat Lunak dengan studi kasus tentang data tanah di suatu lingkungan. Karena seringnya aktivitas mafia tanah di lingkungan tersebut, situs web ini",
-      "techStack": ["Laravel", "Bootstrap"],
-      "image": "project/SimTanah.webp",
-      "link": {
-        "github": "hhttps://github.com/MrFunnyide/web-cek-tanah",
-        "publication": "-"
-      }
+[
+  {
+    "id": "1",
+    "title": "Portofolio Web",
+    "shortDesc": "Portofolio web pribadi menampilkan keterampilan dalam React dan Tailwind, disertai proyek-proyek unggulan.",
+    "techStack": ["React", "Tailwind"],
+    "image": "project/portofolio.webp",
+    "link": {
+      "github": "https://github.com/MrFunnyide/portofolio-project",
+      "publication": "https://ajibayupermadi.vercel.app/"
     }
-  ]
-}
+  },
+  {
+    "id": "2",
+    "title": "E-Mufassir",
+    "shortDesc": "e-Mufassir adalah web asisten Muslim, membantu pengguna menemukan informasi tentang Al-Quran, Hadits, dan Fiqih.",
+    "techStack": ["Laravel", "Wordpress", "Bootstrap", "Vue.js", "Python"],
+    "image": "project/emufassir.webp",
+    "link": {
+      "github": "-",
+      "publication": "https://e-mufassir.com/"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Chatbot E-Mufassir",
+    "shortDesc": "Chatbot ini merupakan hasil skripsi kuliah saya, yang dirancang untuk menemukan informasi tentang isi Tafsir Al-Azhar.",
+    "techStack": ["Laravel", "Python"],
+    "image":"project/chatbot.webp",
+    "link": {
+      "github": "-",
+      "publication": "https://t.me/quran_emufassir_bot"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Landing Page Desa Umbul Limus",
+    "shortDesc": "Landing Page ini dibuat untuk memperkenalkan keindahan dan adat Desa Umbul Limus, Pesawaran, Lampung.",
+    "techStack": ["Vue.js", "Bootstrap"],
+    "image": "project/landingUbl.webp",
+    "link": {
+      "github": "https://github.com/MrFunnyide/webDesaUBL",
+      "publication": "https://umbul-limus.netlify.app/"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Landing Page FDK Uin Suska Riau",
+    "shortDesc": "Website ini merupakan website yang saya ajukan untuk mengikuti Lomba Pembuatan Website Fakultas Dakwah dan Komunikasi Islam.",
+    "techStack": ["Html", "Bootstrap", "JavaScript"],
+    "image": "project/landingFdk.webp",
+    "link": {
+      "github": "https://github.com/MrFunnyide/web-bootstrap",
+      "publication": "https://fdk-uin-suska.netlify.app/"
+    }
+  },
+  {
+    "id": "6",
+    "title": "SIM Student SMAN 5 Tapung",
+    "shortDesc": "Website ini dibuat untuk melakukan pencatatan atau pendataan siswa yang ada di SMAN 5 Tapung.",
+    "techStack": ["Laravel", "Bootstrap"],
+    "image": "project/SimStudent.webp",
+    "link": {
+      "github": "https://github.com/MrFunnyide/web-sma5",
+      "publication": "-"
+    }
+  },
+  {
+    "id": "7",
+    "title": "SIM Data Tanah",
+    "shortDesc": "Situs web ini dibuat pada saat mata kuliah RPLBO, untunk menangani kasus data tanah dan aktivitas mafia tanah.",
+    "techStack": ["Laravel", "Bootstrap"],
+    "image": "project/SimTanah.webp",
+    "link": {
+      "github": "hhttps://github.com/MrFunnyide/web-cek-tanah",
+      "publication": "-"
+    }
+  }
+]
