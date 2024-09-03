@@ -10,6 +10,7 @@ import HomePages from "./pages/HomePages";
 import ProjectPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./pages/ErrorPage";
+import ServicePage from "./pages/ServicePage";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -19,10 +20,11 @@ const App = () => {
           <Route index element={<HomePages />} />
           <Route path="/projects" element={<ProjectPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/service" element={<ServicePage />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
-      </>,
-    ),
+      </>
+    )
   );
 
   return <RouterProvider router={router} />;

@@ -1,8 +1,7 @@
-import CardProject from '@/components/CardProject';
-import projects from '../projects.json';
+import CardProject from "@/components/CardProject";
+import projects from "../projects.json";
 
 const ProjectPage = () => {
-  const tech = ['Laravel', 'Wordpress', 'Bootstrap', 'Vue.js', 'Python'];
   return (
     <div className="mt-20 min-h-screen animate__animated animate__fadeInUp animate__faster">
       <div>
