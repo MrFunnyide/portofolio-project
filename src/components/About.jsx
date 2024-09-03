@@ -1,6 +1,6 @@
-import imageSelf from '../assets/image/foto.webp';
-import Button from './Button';
-import TechStack from './TechStack';
+import imageSelf from "../assets/image/foto.webp";
+import Button from "./Button";
+import TechStack from "./TechStack";
 
 const About = () => {
   return (
@@ -18,11 +18,11 @@ const About = () => {
           <h5 className="mb-4 text-4xl font-extrabold bg-gradient-to-r from-slate-200 to-slate-500 text-transparent bg-clip-text">
             Aji Bayu Permadi
           </h5>
-          <p className="text-justify">
-            Haii, perkenalkan nama saya{' '}
+          <p className="text-justify text-sm">
+            Haii, perkenalkan nama saya{" "}
             <strong className="hover:text-slate-500">
               <a href="document/cv.pdf">Aji Bayu Permadi</a>
-            </strong>{' '}
+            </strong>{" "}
             Saya lulusan Teknik Informatika, Universitas Islam Negeri Sultan
             Syarif Kasim Riau, dengan GPA 3.51. Selama Kuliah Saya berfokus pada
             bidang Web Development, Dengan pengalaman dalam Pengembangan Web,
@@ -32,11 +32,11 @@ const About = () => {
             web. Saya antusias untuk menghadapi tantangan baru dan siap memulai
             karier di bidang pengembangan web. Jika Anda tertarik untuk
             berkolaborasi atau memiliki peluang kerja, jangan ragu untuk
-            menghubungi saya melalui{' '}
+            menghubungi saya melalui{" "}
             <strong className="hover:text-slate-500">
               <a href="mailto:ajineo3@gmail.com">email</a>
-            </strong>{' '}
-            atau pesan langsung di{' '}
+            </strong>{" "}
+            atau pesan langsung di{" "}
             <strong className="hover:text-slate-500">
               <a href="https://www.linkedin.com/in/aji-bayu-permadi-11a5a9214/">
                 LinkedIn
