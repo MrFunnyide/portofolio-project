@@ -15,7 +15,7 @@ const About = () => {
           src={imageSelf}
         />
         <div>
-          <h5 className="mb-4 text-4xl font-extrabold bg-gradient-to-r from-slate-200 to-slate-500 text-transparent bg-clip-text">
+          <h5 className="mb-4 text-2xl font-extrabold bg-gradient-to-r from-slate-200 to-slate-500 text-transparent bg-clip-text">
             Aji Bayu Permadi
           </h5>
           <p className="text-justify text-sm">
