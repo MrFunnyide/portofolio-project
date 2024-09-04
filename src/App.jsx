@@ -23,6 +23,7 @@ const App = () => {
           <Route path="/service" element={<ServicePage />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
+        <Route path="*" element={<ErrorPage />} />
       </>
     )
   );

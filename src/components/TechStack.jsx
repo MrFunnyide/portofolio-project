@@ -13,7 +13,7 @@ import { RiTailwindCssLine, RiUbuntuLine } from "react-icons/ri";
 const TechStack = () => {
   return (
     <>
-      <h5 className="mt-4 text-3xl font-extrabold text-slate-200">
+      <h5 className="mt-4 text-2xl font-extrabold text-slate-200">
         Tech Stack
       </h5>
       <div className="text-2xl md:text-3xl mt-3 flex gap-5 flex-wrap">

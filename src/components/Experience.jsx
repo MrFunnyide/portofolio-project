@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <>
       <div>
-        <h5 className="mt-6 mb-4 text-3xl font-extrabold text-slate-200">
+        <h5 className="mt-6 mb-4 text-2xl font-extrabold text-slate-200">
           Experience
         </h5>
       </div>
