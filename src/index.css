@@ -1,12 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+    @font-face {
+        font-family: "Inter";
+        src: url('./font/inter.ttf'), format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    } 
     body {
-        font-family: "Inter", ui-sans-serif, system-ui;
         background-color: #111827;
     }
 }
