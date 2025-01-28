@@ -26,6 +26,12 @@ const Experience = () => {
         <p>
           {"Laboratorium Multimedia Fakultas Sains dan Teknologi".toUpperCase()}
         </p>
+        <li className="mt-4 font-semibold">
+          Full-stack Developer <strong>| Oct 2024 - Now</strong>
+        </li>
+        <p>
+          {"PT Dazo Kreatif Indonesia".toUpperCase()}
+        </p>
       </ul>
     </>
   );
